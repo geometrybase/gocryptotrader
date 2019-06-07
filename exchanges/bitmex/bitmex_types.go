@@ -302,7 +302,7 @@ type Order struct {
 	PegPriceType          string  `json:"pegPriceType"`
 	Price                 float64 `json:"price"`
 	SettlCurrency         string  `json:"settlCurrency"`
-	Side                  int64   `json:"side,string"`
+	Side                  string   `json:"side,string"`
 	SimpleCumQty          float64 `json:"simpleCumQty"`
 	SimpleLeavesQty       float64 `json:"simpleLeavesQty"`
 	SimpleOrderQty        float64 `json:"simpleOrderQty"`
